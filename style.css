@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+    
+}
+body{
+    background-color: black;
+    height: 900px;
+}
+.container{
+    background-color: rgb(37, 35, 35);
+    width: 800px;
+    height: 700px;
+    position: relative;
+    top: 200px;
+    left: 250px;
+    
+    border-radius: 20px;
+    margin: auto;
+   
+}
+img{
+    border-radius: 50%;
+    position: relative;
+    left:300px ;
+    top: 40px;
+    
+    
+}
+.heading1{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 290px;
+    
+
+}
+.address1{
+    color: greenyellow;
+    position: relative;
+    top: 50px;
+    left:300px ;
+    font-size: 20px;
+    
+    
+}
+.a2{
+    position: relative;
+    top: 80px;
+    left: 248px;
+    font-size:20px ;
+    color: white;
+    margin: auto;
+}
+.btn {
+   
+    color: rgb(103, 96, 96);
+    vertical-align: middle;
+    position: relative;
+    top: 50px;
+    text-align:center;
+    text-decoration: none;
+    margin: auto;
+    font-weight: bold;
+    
+  
+    
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: auto;
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+    text-transform: capitalize;
+    background-color: rgb(60, 57, 57);
+    color: white;
+    margin-bottom: 12px;
+    width: 50%;
+    font-weight: bold;
+   
+    
+}
+button:hover{
+    background-color:greenyellow;
+    cursor: pointer;
+    
+
+}
